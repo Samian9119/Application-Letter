@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Application Letter – Samuel Kiiru Weru</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #e9ecef;
+      font-family: 'Segoe UI', 'Roboto', 'Georgia', Times, serif;
+      padding: 2rem 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    /* letter card style */
+    .letter-container {
+      max-width: 820px;
+      width: 100%;
+      background: white;
+      border-radius: 24px;
+      box-shadow: 0 20px 35px -10px rgba(0, 0, 0, 0.15);
+      overflow: hidden;
+      padding: 2rem 2.2rem;
+      transition: all 0.2s;
+    }
+
+    /* letter content */
+    .letter {
+      font-family: 'Georgia', 'Times New Roman', Times, serif;
+      line-height: 1.55;
+      color: #1e2a3a;
+      font-size: 1rem;
+    }
+
+    /* header contact block */
+    .contact-header {
+      margin-bottom: 1.8rem;
+      border-bottom: 1px solid #dce4ec;
+      padding-bottom: 1.2rem;
+    }
+
+    .contact-header p {
+      margin: 0.2rem 0;
+      font-size: 1rem;
+      font-family: 'Segoe UI', Roboto, sans-serif;
+      color: #2c3e4e;
+    }
+
+    /* date */
+    .date {
+      margin: 1.2rem 0 1rem 0;
+      font-weight: normal;
+    }
+
+    /* recipient */
+    .recipient {
+      margin-bottom: 1.5rem;
+    }
+
+    .recipient p {
+      margin: 0.2rem 0;
+    }
+
+    /* subject line */
+    .subject {
+      font-weight: 600;
+      margin: 1.2rem 0 0.8rem 0;
+      letter-spacing: 0.3px;
+      color: #1f4e6e;
+    }
+
+    /* paragraphs */
+    .letter p {
+      margin-bottom: 1rem;
+      text-align: justify;
+    }
+
+    /* closing */
+    .closing {
+      margin-top: 2rem;
+    }
+
+    .closing p {
+      margin-bottom: 0.3rem;
+    }
+
+    .name-signature {
+      margin-top: 1rem;
+      font-weight: 500;
+    }
+
+    hr {
+      margin: 1rem 0;
+      border: 0;
+      height: 1px;
+      background: #e2e8f0;
+    }
+
+    /* small print / print friendly */
+    @media print {
+      body {
+        background: white;
+        padding: 0;
+        margin: 0;
+      }
+      .letter-container {
+        box-shadow: none;
+        padding: 0.5in;
+        max-width: 100%;
+        border-radius: 0;
+      }
+      .contact-header {
+        border-bottom: 1px solid #ccc;
+      }
+    }
+
+    /* responsive */
+    @media (max-width: 600px) {
+      .letter-container {
+        padding: 1.2rem;
+      }
+      .letter {
+        font-size: 0.95rem;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="letter-container">
+  <div class="letter">
+    <!-- Sender details -->
+    <div class="contact-header">
+      <p><strong>Samuel Kiiru Weru</strong></p>
+      <p>0711724602</p>
+      <p>samuelweru21@gmail.com</p>
+      <p>Matura Sub-Location</p>
+    </div>
+
+    <!-- Date -->
+    <div class="date">
+      <p>12th May 2026</p>
+    </div>
+
+    <!-- Recipient -->
+    <div class="recipient">
+      <p>The Principal</p>
+      <p>Ndoroto Senior School</p>
+    </div>
+
+    <!-- Salutation -->
+    <p>Dear Sir/Madam,</p>
+
+    <!-- Subject line -->
+    <div class="subject">
+      <p><strong>RE: APPLICATION FOR A TEACHING POSITION</strong></p>
+    </div>
+
+    <!-- Body of letter (exactly as requested) -->
+    <p>I am writing to humbly apply for a teaching position at Ndoroto Senior School. I am a trained and qualified teacher ready to contribute meaningfully to your school’s academic excellence.</p>
+
+    <p>I am qualified to teach <strong>Physics</strong> and <strong>Mathematics</strong> at the Senior Secondary level.</p>
+
+    <p>I have <strong>one year of teaching experience</strong>. During that time, I developed strong classroom management skills and the ability to deliver lessons that are both clear and engaging. I believe in making every student feel seen, supported, and capable of success.</p>
+
+    <p>I am eager to bring my energy, subject knowledge, and commitment to Ndoroto Senior School. I am available for an interview at your earliest convenience. Thank you for considering my application.</p>
+
+    <!-- Closing (no signature line, only printed name) -->
+    <div class="closing">
+      <p>Yours faithfully,</p>
+      <div class="name-signature">
+        <p><strong>Samuel Kiiru Weru</strong></p>
+      </div>
+    </div>
+
+    <!-- subtle note: no signature line added as per instruction -->
+  </div>
+</div>
+</body>
+</html>
